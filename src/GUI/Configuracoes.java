@@ -296,7 +296,7 @@ public class Configuracoes extends javax.swing.JFrame {
     }//GEN-LAST:event_BCActionPerformed
 
     private void formComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_formComponentShown
-        
+
         Configuracao CF = new Configuracao();
         CF = acessoArquivo.le();
         SRV.setText(CF.getServer());
@@ -310,7 +310,7 @@ public class Configuracoes extends javax.swing.JFrame {
         PWLDAP.setText(CF.getLdappassword());
         T1.setText(CF.getListaOUAlunos());
         T2.setText(CF.getListaOUProfes());
-        
+
 
     }//GEN-LAST:event_formComponentShown
 
@@ -333,7 +333,7 @@ public class Configuracoes extends javax.swing.JFrame {
         } catch (Exception e) {
             JOptionPane.showMessageDialog(rootPane, "Erro na gravaçào do arquivo de configurações!!");
         }
-        
+
         dispose();
     }//GEN-LAST:event_BSActionPerformed
 
@@ -346,14 +346,14 @@ public class Configuracoes extends javax.swing.JFrame {
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(null, "Erro");
         }
-        
-       // JFrame G = new ListaAluno(d);
-       // G.setVisible(true);
-           for (i = 0; i < d.size(); i++) {
-               msg = msg + d.get(i) + "\n";
 
-           }
-           JOptionPane.showMessageDialog(null, msg);
+        // JFrame G = new ListaAluno(d);
+        // G.setVisible(true);
+        for (i = 0; i < d.size(); i++) {
+            msg = msg + d.get(i) + "\n";
+
+        }
+        JOptionPane.showMessageDialog(null, msg);
 
     }//GEN-LAST:event_LDAPListActionPerformed
 
@@ -375,16 +375,18 @@ public class Configuracoes extends javax.swing.JFrame {
         ArrayList d = new ArrayList();
         int i;
         String msg = "Dados: \n";
-        
+
         try {
             d = listTeachers();
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(null, "Erro");
         }
         for (i = 0; i < d.size(); i++) {
-            msg = msg + d.get(i) + "\n";
+            if (d.get(i).toString().length() != 0) {
+                msg = msg + d.get(i) + "\n";
+            }
         }
-        
+
         JOptionPane.showMessageDialog(null, msg);
     }//GEN-LAST:event_LDAPListProfActionPerformed
 

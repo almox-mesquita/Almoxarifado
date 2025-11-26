@@ -95,7 +95,7 @@ public class Ldap {
         username = (String) CF.getLdapuser();
         password = (String) CF.getLdappassword();
         ArrayList dados = new ArrayList();
-        int cont = 0;
+        int cont = -1;
         Properties props = new Properties();
         props.put(Context.INITIAL_CONTEXT_FACTORY, "com.sun.jndi.ldap.LdapCtxFactory");
         ldapstr = "ldap://" + server + ":" + port;
