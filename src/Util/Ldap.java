@@ -118,7 +118,6 @@ public class Ldap {
             }
         }
             JOptionPane.showMessageDialog(null, "total " + cont);
-
             for (i = 0; i < dados.size(); i++) {
                 temp = dados.get(i).toString();
                 t = (int) temp.length();
