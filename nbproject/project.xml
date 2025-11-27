@@ -11,11 +11,8 @@
                 <root id="test.src.dir"/>
             </test-roots>
         </data>
-<<<<<<< Upstream, based on origin/master
         <libraries xmlns="http://www.netbeans.org/ns/ant-project-libraries/1">
             <definitions>.\lib\nblibraries.properties</definitions>
         </libraries>
-=======
->>>>>>> e23ecb5 Commit inicial
     </configuration>
 </project>
