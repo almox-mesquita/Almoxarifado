@@ -7,7 +7,11 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
+<<<<<<< HEAD
 <<<<<<< Upstream, based on origin/master
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
 <project name="Almox" default="default" basedir=".">
     <description>Builds, tests, and runs the project Almox.</description>
     <import file="nbproject/build-impl.xml"/>
@@ -136,5 +140,9 @@
     nbproject/build-impl.xml file. 
 
     -->
+<<<<<<< HEAD
 >>>>>>> 92117de 
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
 </project>
