@@ -44,9 +44,12 @@ is divided into following sections:
     </target>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Upstream, based on origin/master
 =======
 <<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
     <target name="-pre-init-libraries">
         <property location=".\lib\nblibraries.properties" name="libraries.path"/>
@@ -2085,6 +2088,7 @@ is divided into following sections:
     </target>
     <target depends="-pre-init,-init-private,-init-user,-init-project,-do-init,-post-init,-init-check,-init-macrodef-property,-init-macrodef-javac,-init-macrodef-test,-init-macrodef-test-debug,-init-macrodef-nbjpda,-init-macrodef-debug,-init-macrodef-java,-init-presetdef-jar,-init-ap-cmdline" name="init"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 92117de 
 =======
 >>>>>>> origin/master
@@ -3095,6 +3099,8 @@ is divided into following sections:
         <property name="ap.cmd.line.internal" value=""/>
     </target>
     <target depends="-pre-init,-init-private,-init-user,-init-project,-do-init,-post-init,-init-check,-init-macrodef-property,-init-macrodef-javac,-init-macrodef-test,-init-macrodef-test-debug,-init-macrodef-nbjpda,-init-macrodef-debug,-init-macrodef-java,-init-presetdef-jar,-init-ap-cmdline" name="init"/>
+=======
+>>>>>>> origin/master
 >>>>>>> origin/master
     <!--
                 ===================

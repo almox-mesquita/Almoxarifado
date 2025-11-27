@@ -9,9 +9,12 @@
 <!-- in the project's Project Properties dialog box.-->
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Upstream, based on origin/master
 =======
 <<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 <project name="Almox" default="default" basedir=".">
     <description>Builds, tests, and runs the project Almox.</description>
@@ -142,6 +145,7 @@
 
     -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 92117de 
 =======
 >>>>>>> origin/master
@@ -210,5 +214,7 @@
     nbproject/build-impl.xml file. 
 
     -->
+=======
+>>>>>>> origin/master
 >>>>>>> origin/master
 </project>
